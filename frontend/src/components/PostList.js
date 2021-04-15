@@ -22,7 +22,6 @@ const PostList = () => {
 
   return (
     <div>
-      <h2>Post List</h2>
       {postList.map((post) => {
         return <Post post={post} key={post.id} />;
       })}
